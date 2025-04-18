@@ -3,8 +3,8 @@
 import json
 from flask import redirect, make_response
 from constants import TEMPLATE_ROUTER, TEMPLATE_ERROR
-from NeutralIpcTemplate import NeutralIpcTemplate as NeutralTemplate
-# from neutral_template import NeutralTemplate
+# from NeutralIpcTemplate import NeutralIpcTemplate as NeutralTemplate
+from neutral_template import NeutralTemplate
 
 class Template:
     """NeutralIpcTemplate"""
