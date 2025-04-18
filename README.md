@@ -5,7 +5,7 @@ Test clon - DO NOT USE IN PRODUCTION
 Python
 ----
 
-Requires linux x86_64 and Python 3
+Requires linux x86_64 and Python (cpython 3.12)
 
 ```
 pip install Flask
