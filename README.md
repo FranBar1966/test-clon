@@ -1,5 +1,5 @@
-Test clon - DO NOT USE ANY COMPONENT IN PRODUCTION
-==================================================
+Test clon - DO NOT USE IN PRODUCTION
+====================================
 
 
 Python
