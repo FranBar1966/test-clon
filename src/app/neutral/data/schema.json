@@ -1,0 +1,87 @@
+{
+    "config": {
+        "comments": "remove",
+        "cache_prefix": "neutral-cache",
+        "cache_dir": "",
+        "cache_on_post": false,
+        "cache_on_get": true,
+        "cache_on_cookies": true,
+        "cache_disable": false,
+        "disable_js": true,
+        "filter_all": false
+    },
+    "inherit": {
+        "locale": {
+            "current": "en",
+            "trans": {
+                "en": {
+                    "ref-locale-en": "English",
+                    "ref-locale-es": "Español"
+                },
+                "es": {
+                    "ref-locale-en": "English",
+                    "ref-locale-es": "Español"
+                }
+            }
+        }
+    },
+    "data": {
+        "site": {
+            "name": "Clon&sup3;",
+            "menu": {
+                "name": "Menu",
+                "link": "/"
+            },
+            "title": "Neutral Aggregator Example",
+            "description": "A simple example of using Neutral Template System with Web App and different themes",
+            "meta": {
+                "author": "Neutral Aggregator",
+                "generator": "Neutral Aggregator"
+            },
+            "validLanguages": [
+                "en",
+                "es"
+            ],
+            "validRoutes": [
+                "home",
+                "post",
+                "login",
+                "form-login",
+                "logout"
+            ],
+            "validThemes": [
+                "united",
+                "sketchy",
+                "cerulean",
+                "cosmo",
+                "cyborg",
+                "darkly",
+                "flatly",
+                "journal",
+                "litera",
+                "lumen",
+                "lux",
+                "materia",
+                "minty",
+                "morph",
+                "pulse",
+                "quartz",
+                "sandstone",
+                "simplex",
+                "slate",
+                "solar",
+                "spacelab",
+                "superhero",
+                "vapor",
+                "yeti",
+                "zephyr"
+            ],
+            "navbarColors": {
+                "primary": "navbar-dark bg-primary",
+                "dark": "navbar-dark bg-dark",
+                "light": "navbar-light bg-light",
+                "tertiary": "navbar-light bg-body-tertiary"
+            }
+        }
+    }
+}

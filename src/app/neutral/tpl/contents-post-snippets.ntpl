@@ -1,0 +1,32 @@
+{:* Neutral TS - License in the terms described in the LICENSE file. *:}
+
+{:snip; current-theme-body-content >>
+    {:for; n 1..5 >>
+        <div class="post mb-5">
+            <h2>Lorem Ipsum Dolor Sit Amet</h2>
+            <div class="row d-flex">
+                <div class="col-md-1">
+                    <a href="#" class="" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <img width="100" src="/img/cloname.png" class="rounded mt-2">
+                    </a>
+                </div>
+                <div class="col-md-11 ps-5">
+                    <div class="mb-1"><strong>Autor Anónimo - example.com - publicado: hace {:rand; 10..59 :} min</strong></div>
+                    <img src="https://picsum.photos/200/100?{:;CONTEXT->GET->n:}-{:;n:}" class="rounded float-end ms-3">
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+                    </div>
+                    <div class="comments"><span class="badge text-bg-primary">{:rand; 1..50 :} comentarios</span> | <span class="badge text-bg-primary">compartir</span> | <span class="badge text-bg-primary">cultura</span></div>
+                </div>
+            </div>
+        </div>
+    :}
+    <div id="asdf" class="neutral-fetch-none" data-url="/post?n={:sum; /{:;CONTEXT->GET->n:}/1/ :}">
+    <div class="text-center my-4">
+        <button class="btn btn-primary w-50 " onclick="
+            document.getElementById('asdf').classList.add('neutral-fetch-auto');
+            neutral_fev();
+            "> Más...</button>
+        </div>
+    </div>
+:}

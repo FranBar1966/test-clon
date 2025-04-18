@@ -1,0 +1,12 @@
+{
+    "data": {
+        "currentRoute": {
+            "title": "Cloneme the clone of the clone",
+            "description": "Find out about the latest Internet nonsense.",
+            "icon": "icon-check",
+            "meta": {
+                "name": "content"
+            }
+        }
+    }
+}
