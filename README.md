@@ -5,10 +5,9 @@ Test clon - DO NOT USE IN PRODUCTION
 Python
 ----
 
-Requires linux x86_64 and Python (cpython 3.12)
-
 ```
 pip install Flask
+pip install -i https://test.pypi.org/simple/ neutraltemplate
 ```
 
 Navigate to the src/app directory and then:
