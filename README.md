@@ -8,7 +8,7 @@ Python
 
 ```
 pip install Flask
-pip install -i https://test.pypi.org/simple/ neutraltemplate
+pip install neutraltemplate
 ```
 
 Navigate to the src/app directory and then:
